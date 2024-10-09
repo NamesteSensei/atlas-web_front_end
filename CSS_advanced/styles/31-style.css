@@ -1,0 +1,15 @@
+/* Add quote decoration to testimonials */
+.card-quote {
+  position: relative;
+}
+
+.card-quote::before {
+  content: "\201C"; /* Left Double Quotation Mark */
+  position: absolute;
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: -1;
+}
+
