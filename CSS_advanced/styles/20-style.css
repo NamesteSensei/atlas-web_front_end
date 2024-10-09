@@ -1,0 +1,7 @@
+/* Clear the grid after each row */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
