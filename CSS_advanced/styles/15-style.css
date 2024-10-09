@@ -1,0 +1,7 @@
+/* Apply universal box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
