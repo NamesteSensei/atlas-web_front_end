@@ -1,0 +1,17 @@
+/* Targeting anchor elements with pseudo-classes */
+a[href] {
+  text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
+}
+
