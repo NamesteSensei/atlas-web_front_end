@@ -20,7 +20,18 @@
   transition: width var(--transition-duration) var(--transition-cubic-bezier);
 }
 
+/* Animate the button on hover */
 .button:hover {
-  transition: color var(--transition-duration), background-color var(--transition-duration);
+  transition-duration: var(--transition-duration);
+  transition-property: background-color, color;
+}
+
+/* Add transitions on card works */
+.card-work:hover .card-image {
+  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.card-work .card-inner {
+  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
