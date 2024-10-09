@@ -1,0 +1,9 @@
+/* Custom property for centering section titles */
+:root {
+  --section-header-align: center;
+}
+
+.section-header {
+  text-align: var(--section-header-align);
+}
+
