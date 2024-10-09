@@ -1,0 +1,11 @@
+/* Custom property for transforming section tagline */
+:root {
+  --section-tagline-transform: uppercase;
+}
+
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}
+
