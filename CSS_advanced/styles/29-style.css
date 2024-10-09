@@ -1,0 +1,21 @@
+/* Styling for the nav and pseudo-elements */
+:root {
+  --nav-item-link-hover: var(--color-white);
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 20%;
+}
+
+.nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
