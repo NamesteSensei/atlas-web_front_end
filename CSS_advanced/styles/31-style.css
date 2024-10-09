@@ -1,9 +1,10 @@
-/* Add quote decoration to testimonials */
-.card-quote {
+/* Ensure that the card-quote is inside card-testimonial and position is relative */
+.card-testimonial .card-quote {
   position: relative;
 }
 
-.card-quote::before {
+/* Add quote decoration to card-quote using before pseudo-element */
+.card-testimonial .card-quote::before {
   content: "\201C"; /* Left Double Quotation Mark */
   position: absolute;
   top: -4.5rem;
